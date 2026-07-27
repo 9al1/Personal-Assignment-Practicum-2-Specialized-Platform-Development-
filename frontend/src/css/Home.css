@@ -1,0 +1,87 @@
+.home {
+
+    flex: 1;
+
+    padding: 40px;
+
+    background-color: #1e1e1e;
+
+    color: white;
+
+}
+
+
+/* Hero Section */
+
+.hero {
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+}
+
+
+.hero h1 {
+
+    font-size: 52px;
+
+    color: white;
+
+    margin-bottom: 10px;
+
+}
+
+
+.hero p {
+
+    font-size: 22px;
+
+    color: #cccccc;
+
+}
+
+
+/* About Section */
+
+.about {
+
+    max-width: 800px;
+
+    margin: 40px auto;
+
+    background-color: #2b2b2b;
+
+    padding: 40px;
+
+    border-radius: 15px;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+
+}
+
+
+.about h2 {
+
+    color: white;
+
+    font-size: 32px;
+
+    margin-bottom: 20px;
+
+}
+
+
+.about p {
+
+    color: #cccccc;
+
+    font-size: 18px;
+
+    line-height: 1.8;
+
+    margin-bottom: 15px;
+
+}
