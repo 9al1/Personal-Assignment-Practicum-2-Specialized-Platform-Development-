@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import axios from "axios";
+import API from "../api";
 
 import ProductCard from "../components/ProductCard";
 import "../css/ProductList.css";
@@ -14,8 +14,8 @@ function ProductList() {
 
     useEffect(() => {
 
-        axios
-            .get("http://localhost:5000/api/products")
+        API
+            .get("/products")
 
             .then((response) => {
 
