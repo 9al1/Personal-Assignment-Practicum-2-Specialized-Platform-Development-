@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import axios from "axios";
+import API from "../api";
 
 import "../css/ProductDetails.css";
 
@@ -9,8 +9,8 @@ function ProductDetails() {
     const [product, setProduct] = useState(null);
 
     useEffect(() => {
-        axios
-            .get(`http://localhost:5000/api/products/${id}`)
+        API
+            .get(`/products/${id}`)
             .then((response) => {
                 setProduct(response.data);
             })
